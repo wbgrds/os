@@ -1,4 +1,4 @@
-this.gcal=this.gcal||{};(function(_){var window=this;
+this.gcal=this.gcal||{};(function(_){
 try{
 _._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles=a||[]};(0,_._F_toggles_initialize)([]);
 var f=function(a){if(e.test(a))return a},k=function(a,b){a.removeAttribute("srcdoc");if(b instanceof g)throw new h("TrustedResourceUrl",2);var c="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-storage-access-by-user-activation".split(" ");a.setAttribute("sandbox","");for(let d=0;d<c.length;d++)a.sandbox.supports&&!a.sandbox.supports(c[d])||a.sandbox.add(c[d]);b=f(b);b!==void 0&&(a.src=b)},m=function(a,b){if(b instanceof g)a.href=(b instanceof g&&b.constructor===
