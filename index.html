@@ -74,7 +74,6 @@
           <a href="https://1018.3cx.cloud/callus/#olaf" target="_blank" rel="noopener">
             Kontakt
           </a>
-          <button class="btn-termin" onclick="openModal()">Termin</button>
         </div>
       </div>
     </nav>
@@ -107,30 +106,7 @@
         <a href="https://1018.3cx.cloud/callus/#olaf" target="_blank" rel="noopener">
           Kontakt
         </a>
-        <button class="btn-termin" onclick="openModal()">Kalender</button>
       </div>
     </footer>
-
-    <!-- Modal Overlay -->
-    <div id="modal" class="modal">
-      <div class="modal-content">
-        <button class="modal-close" onclick="closeModal()">×</button>
-        <iframe src="https://cal.com/wbgrds/hotline" title="Termin vereinbaren"></iframe>
-      </div>
-    </div>
-
-    <script>
-      function openModal() {
-        document.getElementById('modal').classList.add('open');
-      }
-      function closeModal() {
-        document.getElementById('modal').classList.remove('open');
-      }
-      document.getElementById('modal').addEventListener('click', function(e) {
-        if (e.target === this) {
-          closeModal();
-        }
-      });
-    </script>
   </body>
 </html>
